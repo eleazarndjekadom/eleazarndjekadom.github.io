@@ -1,0 +1,91 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  background-color: hsl(208, 100%, 98%);
+}
+
+h1 {
+  font-size: 2.25em;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+a {
+  color: hsl(359, 63%, 47%);
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  border-bottom: 2px solid lightslategray;
+  margin-bottom: 24px;
+}
+
+.site {
+  min-height: 100vh;
+  max-width: 70ch;
+  margin: auto;
+  padding: 0px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titre {
+  text-align: center;
+}
+
+.titre a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.prof {
+  text-align: right;
+  font-weight: 600;
+}
+
+.moi p {
+  font-weight: 600;
+  font-size: 1.04em;
+  margin: 0;
+}
+
+.pagination {
+  padding-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.element-pagination {
+  border: 1px solid hsl(359, 63%, 47%);
+  flex-grow: 1;
+}
+
+.element-pagination a {
+  display: block;
+  padding: 24px 8px;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+.droit {
+  text-align: right;
+}
+
+.gauche {
+  text-align: left;
+}

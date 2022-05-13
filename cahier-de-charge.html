@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Introduction</title>
+  </head>
+  <body>
+    <div class="site">
+      <div>
+        <header>
+          <h1 class="titre">
+            <a href="index.html">Gestion de salle de cours</a>
+          </h1>
+          <div class="moi">
+            <p>Ndjekadom Eleazar</p>
+            <p>20A079FS</p>
+          </div>
+          <p class="prof">Encadreur : Dr ADAMOU YOUGOUDA</p>
+        </header>
+        <article>
+          <h2>Cahier de charge du projet</h2>
+
+          <h3>Contexte et définition de problème</h3>
+          <p>
+            L'université de N'Gaoundéré renferme plusieurs faculté et école
+            professionnel. Ces facultés et écoles regroupent en elle différente
+            filières, qui est constituées à leur tour de salle de classe. En
+            plus l'université accueil un nombre important d'étudiant chaque
+            année. Vue les divers filières qu'offre chaque établissement et le
+            nombre croissant des étudiant, Ilse pose un problème de
+            disponibilité des salles des cours pour les diffèrent salle de
+            classe. Raison pour laquelle nous voudrions mettre en place un
+            système de gestion de la salle de cour qui permettra de résoudre ce
+            problème qui cause un retard sur le déroulement de cours.
+          </p>
+
+          <h3>Objectifs</h3>
+
+          <p>
+            Afin d'apporter une solution à la problématique mentionnée dans la
+            section précédente. L'objectif primordial de notre projet est de
+            faciliter l'organisation et la disposition de salle de cour dans
+            toutes les écoles et les facultés de l'université de N'Gaoundéré
+            pour que le déroulement du cours se passe de manière aisée.
+          </p>
+
+          <h3>Description fonctionnelle de besoin</h3>
+          <h4>Besoin fonctionnelle</h4>
+          <p>
+            Le principal but de notre projet est de proposer un système de
+            gestion de salle de cour au sein de l'université.
+          </p>
+
+          <p>
+            On entend par besoin fonctionnels, l'expression des actions qui doit
+            effectuer le système en réponse à une demande. Il s'agit ici de la
+            fonctionnalité que le logiciel doit respecter au terme de processus
+            de développement du projet. Les besoin fonctionnelle sont spécifies
+            par les représentant des utilisateurs et bénéficiaire des services
+            délivrer par les logiciel. Dans notre cas de gestion de salle de
+            cour, le logiciel doit permettre de :
+          </p>
+
+          <ul>
+            <li>Consulter le planning des cours dans chaque salle de cour</li>
+            <li>Vérifier la disponibilité des salles de cour</li>
+            <li>Réserver une salle de cour</li>
+          </ul>
+
+          <h4>Besoin non fonctionnel</h4>
+
+          <p>
+            On désigne par besoin non fonctionnel, les besoin spécifique pouvant
+            être mesure, atteint, limite, dans le temps et traçable avec le
+            détail et la rigueur appropries pour le logiciel. Ce sont en effet
+            des besoins en terme de performance de type matériel ou lies à
+            l'implémentation tel que le langage de programmation utilise, le
+            type de gestion de base de donnes «SGBD» qui caractérisent le
+            système. Les besoins non fonctionnel de notre système sont
+          </p>
+
+          <ul>
+            <li>La performance</li>
+            <li>L'efficacité</li>
+            <li>La facilite d'utilisation</li>
+            <li>La sécurité</li>
+          </ul>
+
+          <h3>PERIMETRE D'UTILISATION</h3>
+
+          <p>
+            Ce projet s'adresse aux enseignants et tous les personnels de
+            l'université. Pour mieux informer et organiser le planning des
+            salles de cour.
+          </p>
+
+          <h2>MODELISATION</h2>
+
+          <p>
+            La modélisation est une activité visant à élaborer un modèle,
+            c'est-à-dire à transcrire des donnes d'observation et à décrire les
+            processus dans un langage formalisé afin de les étudier plus
+            soigneusement.
+          </p>
+
+          <p>
+            Un modèle quant à lui, est une représentation abstrait de l'instance
+            réel d'un objet en vue de réaliser un traitement. Il a pour objectif
+            de structurer les informations entre l'entité. Plusieurs méthodes et
+            outils de modélisation existent à ce jour, parmi elles on a la
+            méthode UML et MERISE qui sont très populaires. UML est proche du
+            langage de programmation et sa démarche orientée objet la
+            réutilisation ce qui renforce la productivité. Pour toutes ces
+            raisons en addition à sa facilité d'utilisation, noud utilisons le
+            langage UML pour la modélisation de notre logicielle.
+          </p>
+
+          <h3>Diagramme de cas d'utilisation</h3>
+
+          <p>
+            Un diagramme de cas d'utilisation est une représentation symbolique
+            accompagne d'une description textuelle permettant de simuler le
+            comportement fonctionnel d'un système logiciel, d'un sous-système ou
+            d'une classe. Dans le souci de décrire avec cohérence les
+            différentes interactions entre les utilisateurs et notre système,
+            nous présentons le diagramme de cas d'utilisation global suivant :
+          </p>
+
+          <figure>
+            <img
+              src="images/usecase.png"
+              alt="diagramme de cas d'utilisation"
+            />
+            <figcaption>fig1. diagramme de cas d'utilisation</figcaption>
+          </figure>
+
+          <h3>Diagramme de classe</h3>
+
+          <p>
+            Le diagramme de classe ressort l'expression de la structure statique
+            du système sous la forme de classe et de relation entre ces
+            différentes classes. Il a pour rôle la modélisation de chacune des
+            entités du système d'information en terme de classe il nous permet
+            donc de représenter l'ensemble des informations finalisées qui sont
+            géré par le domaine. Ce diagramme révèle alors d'éventuelles
+            relations entre les instances de nos différentes classes.
+          </p>
+
+          <figure>
+            <img src="images/diagrame-de-class.png" alt="diagramme de class" />
+            <figcaption>fig2. diagramme de classe</figcaption>
+          </figure>
+
+          <h3>Diagramme de séquence</h3>
+
+          <p>
+            Un diagramme de séquence est la représentation graphique de
+            l'interaction entre les acteurs et le système selon un ordre
+            chronologique dans la formulation UML. Ils permettent de montrer
+            l'interaction d'objet dans le cadre d'un scenario d'un diagramme de
+            cas d'utilisation.
+          </p>
+
+          <figure>
+            <img
+              src="images/diagramme-de-sequence.png"
+              alt="diagramme de séquence"
+            />
+            <figcaption>fig3. diagramme de sequence</figcaption>
+          </figure>
+
+          <h3>Diagramme d'activité</h3>
+
+          <p>
+            Le diagramme d'activité est le plus approprié pour modéliser la
+            dynamique d'une tache ou d'un processus métier.
+          </p>
+
+          <figure>
+            <img
+              src="images/diagramme-de-activite.png"
+              alt="diagramme d'activité"
+            />
+            <figcaption>fig4. diagramme d'activité</figcaption>
+          </figure>
+        </article>
+      </div>
+
+      <div class="pagination">
+        <div class="element-pagination gauche">
+          <a href="presentation-uml.html">
+            <span><-</span>
+            <span>Presentation de UML</span>
+          </a>
+        </div>
+        <div class="element-pagination droit">
+          <a href="conclusion.html">
+            <span>Conclusion</span>
+            <span>-></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
